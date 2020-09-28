@@ -16,5 +16,23 @@
         "firstName": "Benny",
         "lastName" :  "Blanco",
         "department": "Legal"
+    },
+    {
+        "id": 4,
+        "firstName": "Jerry",
+        "lastName" :  "Seinfeld",
+        "department": "Sales"
+    },
+    {
+        "id": 5,
+        "firstName": "Enrico",
+        "lastName" :  "Palatzo",
+        "department": "HR"
+    },
+    {
+        "id": 6,
+        "firstName": "Homer",
+        "lastName" :  "Simpson",
+        "department": "Legal"
     }
 ]

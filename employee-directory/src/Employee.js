@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import Title from "./components/Title/title";
 import employees from "./employee.json";
 // import Wrapper from "./components/Wrapper";
 
@@ -22,7 +23,7 @@ class Employees extends React.Component {
   render() {
     return (
       <>
-      {/* <Wrapper> */}
+     <Title>Employee Directory </Title>
         <table className="table table-dark mt-15">
           <thead>
             <tr className="mt-10">
@@ -46,7 +47,7 @@ class Employees extends React.Component {
         </table>
 
 
-        {/* </Wrapper> */}
+        
       </>
       
     );
