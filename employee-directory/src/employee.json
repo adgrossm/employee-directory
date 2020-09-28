@@ -1,38 +1,38 @@
 [
     {
-        "id": 1,
+        "id": 5,
         "firstName": "SpongeBob",
         "lastName" :  "Squarepants",
-        "department": "Sales"
+        "departmentId": "3"
     },
     {
         "id": 2,
         "firstName": "Juan",
         "lastName" :  "Valentin",
-        "department": "HR"
+        "departmentId": "1"
     },
     {
         "id": 3,
         "firstName": "Benny",
         "lastName" :  "Blanco",
-        "department": "Legal"
+        "departmentId": "3"
     },
     {
         "id": 4,
         "firstName": "Jerry",
         "lastName" :  "Seinfeld",
-        "department": "Sales"
+        "departmentId": "2"
     },
     {
-        "id": 5,
+        "id": 1,
         "firstName": "Enrico",
         "lastName" :  "Palatzo",
-        "department": "HR"
+        "departmentId": "2"
     },
     {
         "id": 6,
         "firstName": "Homer",
         "lastName" :  "Simpson",
-        "department": "Legal"
+        "departmentId": "3"
     }
 ]
