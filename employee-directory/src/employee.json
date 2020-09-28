@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "firstName": "SpongeBob",
+        "lastName" :  "Squarepants",
+        "department": "Sales"
+    },
+    {
+        "id": 2,
+        "firstName": "Juan",
+        "lastName" :  "Valentin",
+        "department": "HR"
+    },
+    {
+        "id": 3,
+        "firstName": "Benny",
+        "lastName" :  "Blanco",
+        "department": "Legal"
+    }
+]
