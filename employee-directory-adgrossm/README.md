@@ -1,9 +1,9 @@
 
 # Employee Directory
 
-- [Deployed App](https://opensource.org/licenses/MIT)
+<img src="./screenshot.JPG" alt="screenshot of employee directory app">
 
-<img src="./screenshot.JPG" alt="screenshot of employee directory">
+- [Deployed App](https://employee-directory-adgrossm.herokuapp.com/)
 
 ![License](https://img.shields.io/badge/License-MIT-blue.svg "License Badge")
 

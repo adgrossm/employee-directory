@@ -4,7 +4,6 @@ import Title from "./components/Title/title";
 import employees from "./employee.json";
 import Wrapper from "./components/Wrapper/Wrapper";
 
-// need to create the movies.json file like Max did with id, title, year
 
 class Employees extends React.Component {
   state = {
@@ -62,14 +61,14 @@ render() {
 
       <Title>Employee Directory </Title>
       <Wrapper>
-        <div><input type="text" /><button>Search</button></div>
+        {/* <div><input type="text" /><button>Search</button></div> */}
         <table className="table table-dark">
           <thead>
             <tr>
               <th scope="col" onClick={() => this.handleSort("id")}>Employee ID#</th>
               <th scope="col" onClick={()=> this.handleNameSort("firstName")}>First Name</th>
-              <th scope="col"onClick={()=> this.handleNameSort("lastName")}>Last Name</th>
-              <th scope="col">Department</th>
+              <th scope="col" onClick={()=> this.handleNameSort("lastName")}>Last Name</th>
+              <th scope="col" onClick={()=> this.handleNameSort("department")}>Department</th>
               <th scope="col" onClick={() => this.handleSort("departmentId")}>Department ID</th>
             </tr>
           </thead>
