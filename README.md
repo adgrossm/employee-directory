@@ -3,12 +3,12 @@
 
 <img src="./screenshot.JPG" alt="screenshot of employee directory app">
 
-- [Deployed App](https://employee-directory-adgrossm.herokuapp.com/)
+- [Deployed App](https://murmuring-lowlands-10192.herokuapp.com/)
 
 ![License](https://img.shields.io/badge/License-MIT-blue.svg "License Badge")
 
 ## Description:
-    This app was created using React to display non-sensitive employee information can that be sorted by all categories. A search functionality will be added in the next release.
+    This app was created using React to display non-sensitive employee information can that be sorted by all categories as well as search for employee by first name.
 
 ## Table of Contents
 

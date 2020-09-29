@@ -3,7 +3,7 @@ import "./App.css";
 import Title from "./components/Title/title";
 import employees from "./employee.json";
 import Wrapper from "./components/Wrapper/Wrapper";
-
+import Tbody from './components/Tbody'
 
 class Employees extends React.Component {
   state = {
@@ -54,14 +54,18 @@ class Employees extends React.Component {
     const newSortOrder = this.state.sortOrder === "des" ? "asc" : "des"
     this.setState({ employeeList: newSort, sortOrder: newSortOrder })
   };
-
+  handleChange =(e)=>{
+    console.log(e.target.value)
+    const newList = employees.filter(employee=>employee.firstName.toLowerCase().includes(e.target.value.toLowerCase()))
+    this.setState({employeeList: newList})
+  }
 render() {
   return (
     <>
 
       <Title>Employee Directory </Title>
       <Wrapper>
-        {/* <div><input type="text" /><button>Search</button></div> */}
+        <div><input type="text" onChange={e=>this.handleChange(e)} size="50" placeholder="type to search for the employee's first name"/></div>
         <table className="table table-dark">
           <thead>
             <tr>
@@ -73,15 +77,7 @@ render() {
             </tr>
           </thead>
           <tbody>
-            {this.state.employeeList.map(employees => (
-              <tr>
-                <th scope="row">{employees.id}</th>
-                <td>{employees.firstName}</td>
-                <td>{employees.lastName}</td>
-                <td>{employees.department}</td>
-                <td>{employees.departmentId}</td>
-              </tr>
-            ))}
+                <Tbody employees={this.state.employeeList}/>
           </tbody>
         </table>
       </Wrapper>
